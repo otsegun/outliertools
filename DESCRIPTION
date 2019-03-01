@@ -5,12 +5,13 @@ Authors@R: c(
     person("Oluwasegun", "Ojo", email = "oluwasegun.ojo@imdea.org", role = c("aut", "cre")),
     person("Antonio", "Fernandez Anta", role = "ctb"),
     person("IMDEA Networks Institute", role = c("cph", "fnd")))
-    
 Description: A package to easily detect oultiers in a multivariate and functional datasets,
     using robust estimates of location and scatter and also other recent algorithms.
-    
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    robustbase
+    robustbase,
+    rrcov
+URL: https://github.com/otsegun/outliertools
+BugReports: https://github.com/otsegun/outliertools/issues
